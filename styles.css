@@ -40,7 +40,7 @@
   .navbar .navbar-brand,
   .navbar .navbar-brand:hover,
   .navbar .navbar-brand:focus {
-    color:#ce8054;  
+    color:#ce7f54;  
     padding-left: 0;
     font-size: 16px;
     font-weight: 380;
@@ -108,7 +108,7 @@
     }
     
     .carousel .carousel-item {
-        height:600px;
+        height:600px;;
     }
     
     .carousel-item img {
@@ -116,5 +116,436 @@
         object-fit:cover;
         top: 0;
         left: 0;
-        min-height: 500px;
+        min-height: 50px;
     }
+
+
+    .animate-bottom {
+      position: relative;
+      animation: animatebottom 0.2s;
+    }
+    
+    @keyframes animatebottom {
+      from {
+        bottom: -300px;
+        opacity: 0;
+      }
+    
+      to {
+        bottom: 0;
+        opacity: 1;
+      }
+    }
+
+    body{
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #233342; /* For browsers that do not support gradients */
+      background-image: linear-gradient(to bottom right,#233342,  #02457a);
+    }
+
+
+    section{
+      width: 480px;
+      border: 1px solid #ccc;
+      background-color: #233342;
+      overflow-y: hidden;
+    }
+
+  
+
+    header{
+
+      padding: 30px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      background-color: #233342;
+      
+
+    }
+
+    main{
+      background-color: #264059;
+      border-top-right-radius: 2vh;
+      border-top-left-radius: 2vh;
+      min-height:20vh;
+    }
+
+    main .buttons{
+      display:flex;
+      padding: 1vh;
+      padding-bottom: 0vh;
+      padding-top: 0vh;
+    }
+
+    main .whoami{
+      padding:2.2vh;
+    }
+
+    main .whoami h2{
+
+      font-family: 'Josefin Sans', sans-serif;
+      color:#ffeed4; 
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-left: 1.2vh; 
+    }
+
+    .whoami .scrolling-wrapper {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      
+    }
+
+    .scrolling-wrapper .card {
+      background-color: #425363;
+      min-width: 235px;
+      min-height: 300px;
+      margin: 10px;
+      margin-left: 1vh; 
+      flex: 0 0 auto;
+      border-radius: 2vh;
+      box-shadow: 0px 2.1vh 5.3vh 0vh rgba(112,114,176,0.2);
+      }
+
+
+
+    .buttons .button{
+      flex:1;
+      padding:8vh;
+      border-radius: 0.7vh;
+      background-color: #425363;
+      margin: 0.5vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: 'Josefin Sans', sans-serif;
+      min-height: 100px;
+      border:0.1vh solid #264059;
+      box-shadow: 0px 2.1vh 5.3vh 0vh rgba(112,114,176,0.2);
+     
+      
+    }
+
+    .buttons .button:hover,.buttons .button:focus {
+      background-color:#546575;
+      border: 0.05vh solid #546575;
+    }
+
+    
+    .thumbone{
+      background-image: url(/images/education3.png);
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+          
+    .thumbtwo{
+      background-image: url(/images/work-station3.png);
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+      
+      .thumbthree{
+        background-image: url(/images/support3.png);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+      .thumbfour{
+        background-image: url(/images/coding3.png);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+    .cardone{
+      background-image: url(/images/qa1.png);
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+    .cardtwo{
+        background-image: url(/images/qa2.png);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+    .cardthree{
+      background-image: url(/images/qa3.png);
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }   
+
+    .cardfour{
+        background-image: url(/images/qa4.png);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }   
+
+        
+
+    @media screen and (min-height:300px){
+
+      .modal-dialog{
+        min-width: 300px;     
+        height:600px !important;
+        top:15%;
+      }
+
+      .modal-dialog ,.modal-content{
+        height: 60%;
+        border-top-right-radius: 2vh;
+        border-top-left-radius: 2vh;
+        box-shadow: 0px 2.1vh 5.3vh 0vh rgba(112,114,176,0.2);
+      }
+
+      .modal-header{
+        border-top-right-radius: 2vh;
+        border-top-left-radius: 2vh;
+        background-color: #b35340; /* For browsers that do not support gradients */
+        background-image: linear-gradient(-45deg,#b35340,  #6f3637);
+        border:0.2vh solid #6f3637;
+        
+
+      }
+      .modal-body{
+        background-color: #ffff; /* For browsers that do not support gradients */
+        background-image: linear-gradient(-200deg,  #ffff,  #ffff,#ffeed4);
+
+      }
+      .modal-header h5{
+          color:#ffeed4;
+          font-family: 'Josefin Sans', sans-serif;
+          font-weight:lighter;
+
+          
+
+      }
+
+      .modal-body{
+        max-height: calc(100%-60px);
+        overflow-y:scroll ;
+      }
+
+      .modal-body .infopannels{
+        padding: 0.1vh;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      .infopannel .logo img{
+        border-radius: 0.6vh;
+      }
+      .infopannels .infopannel{
+        display: flex;
+        background-color: #264059;
+        padding:3vh;
+        border-radius: 1vh;
+        margin-bottom: 2vh;
+        box-shadow: 0px 2.1vh 5.3vh 0vh rgba(112,114,176,0.2);
+        
+      }
+      .infopannels .infopannel .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 3vh;
+      }
+
+      .infopannels .infopannel .details{
+        flex :1;
+      }
+
+      .details .degree{
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #ffeed4;
+
+      }
+      .details .school{
+        color:#ffff;
+      
+      }
+      .details .year{
+       font-size: 0.9rem;
+       color:#ce7f54;
+        
+      }
+      .details span{
+        padding: 0.8vh;
+        color: #233342;
+        margin: 0.4vh;
+      }
+    .infopannels .corppannel{
+        background-color: white;
+        padding:3vh;
+        border-radius: 1vh;
+        margin-bottom: 2vh;
+        
+      }  
+      .corppannel .av-partner-fake-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 3vh;
+
+      }
+    .corppannel .av-partner-fake-img {
+        filter: grayscale(100%); -webkit-filter: grayscale(100%); filter: gray; -webkit-transition: all .6s ease;
+    }
+    .corppannel .av-partner-fake-img:hover {
+         filter: grayscale(0%); -webkit-filter: grayscale(0%); filter: none;
+    }
+
+    /*Skills*/
+    .skill-bars{
+      padding: 25px 30px;
+      min-width: 250px;
+      background: #fff;
+      box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+      border-radius: 10px;
+    }
+    .skill-bars .bar{
+      margin: 20px 0;
+    }
+    .skill-bars .bar:first-child{
+      margin-top: 0px;
+    }
+    .skill-bars .bar .info{
+      margin-bottom: 5px;
+    }
+    .skill-bars .bar .info span{
+      font-weight: 500;
+      font-size: 17px;
+      opacity: 0;
+      animation: showText 0.5s 1s linear forwards;
+    }
+    @keyframes showText {
+      100%{
+        opacity: 1;
+      }
+    }
+    .skill-bars .bar .progress-line{
+      height: 10px;
+      width: 100%;
+      background: #f0f0f0;
+      position: relative;
+      transform: scaleX(0);
+      transform-origin: left;
+      border-radius: 10px;
+      box-shadow: 0px 2.1vh 5.3vh 0vhrgba(255,255,255,0.2);
+      /*box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+                  0 1px rgba(255,255,255,0.8);*/
+      animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+    }
+    @keyframes animate {
+      100%{
+        transform: scaleX(1);
+      }
+    }
+    .bar .progress-line span{
+      height: 100%;
+      position: absolute;
+      border-radius: 10px;
+      transform: scaleX(0);
+      transform-origin: left;
+      background: #ce7f54;
+      animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    }
+    .bar .progress-line.html span{
+      width: 80%;
+    }
+    .bar .progress-line.css span{
+      width: 75%;
+    }
+    .bar .progress-line.javascript span{
+      width: 70%;
+    }
+    .bar .progress-line.python span{
+      width: 65%;
+    }
+    .bar .progress-line.mysql span{
+      width: 75%;
+    }
+    .bar .progress-line.java span{
+      width: 62%;
+    }
+    .bar .progress-line.sas span{
+      width: 60%;
+    }
+    .bar .progress-line.bootstrap span{
+      width: 68%;
+    }
+    .progress-line span::before{
+      position: absolute;
+      content: "";
+      top: -10px;
+      right: 0;
+      height: 0;
+      width: 0;
+      border: 7px solid transparent;
+      border-bottom-width: 0px;
+      border-right-width: 0px;
+      border-top-color: #000;
+      opacity: 0;
+      animation: showText2 0.5s 1.5s linear forwards;
+    }
+    .progress-line span::after{
+      position: absolute;
+      top: -28px;
+      right: 0;
+      font-weight: 500;
+      background: #000;
+      color: #fff;
+      padding: 1px 8px;
+      font-size: 12px;
+      border-radius: 3px;
+      opacity: 0;
+      animation: showText2 0.5s 1.5s linear forwards;
+    }
+    @keyframes showText2 {
+      100%{
+        opacity: 1;
+      }
+    }
+    .progress-line.html span::after{
+      content: "80%";
+    }
+    .progress-line.css span::after{
+      content: "75%";
+    }
+    .progress-line.javascript span::after{
+      content: "70%";
+    }
+    .progress-line.python span::after{
+      content: "65%";
+    }
+    .progress-line.mysql span::after{
+      content: "75%";
+    }
+    .progress-line.sas span::after{
+      content: "60%";
+    }
+    .progress-line.bootstrap span::after{
+      content: "68%";
+    }
+    .progress-line.java span::after{
+      content: "62%";
+    }
+
+    }
+
+
+    /* Stacks*/
+

@@ -239,7 +239,7 @@
 
     
     .thumbone{
-      background-image: url(/images/education3.png);
+      background-image: url(./images/education3.png);
       background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -247,7 +247,7 @@
 
           
     .thumbtwo{
-      background-image: url(/images/work-station3.png);
+      background-image: url(./images/work-station3.png);
       background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -255,41 +255,41 @@
 
       
       .thumbthree{
-        background-image: url(/images/support3.png);
+        background-image: url(./images/support3.png);
         background-position:center;
         background-repeat: no-repeat;
         background-size: cover;
         }
 
       .thumbfour{
-        background-image: url(/images/coding3.png);
+        background-image: url(./images/coding3.png);
         background-position:center;
         background-repeat: no-repeat;
         background-size: cover;
         }
 
     .cardone{
-      background-image: url(/images/qa1.png);
+      background-image: url(./images/qa1.png);
       background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
       }
     .cardtwo{
-        background-image: url(/images/qa2.png);
+        background-image: url(./images/qa2.png);
         background-position:center;
         background-repeat: no-repeat;
         background-size: cover;
         }
 
     .cardthree{
-      background-image: url(/images/qa3.png);
+      background-image: url(./images/qa3.png);
       background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
       }   
 
     .cardfour{
-        background-image: url(/images/qa4.png);
+        background-image: url(./images/qa4.png);
         background-position:center;
         background-repeat: no-repeat;
         background-size: cover;
